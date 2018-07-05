@@ -72,7 +72,7 @@
     \begin{center}
 	\vskip-\lastskip%
 	{\usekomafont{part} #1} \medskip\\
-	{\fontfamily{pzc}\selectfont\Large Data Scientist and Educator}
+	{\fontfamily{pzc}\selectfont\Large Data Scientist}
 	\bigskip
     \end{center}]}
 
@@ -111,7 +111,7 @@
     \boxwidth=\dimexpr\linewidth-2\fboxsep\relax%
     \colorbox[HTML]{F5DD9D}{%
     \begin{tabularx}{\boxwidth}{c|X}
-    \Writinghand & {#2} \smallskip\\
+    \Writinghand & {#2}\smallskip \\
     \ifstrempty{#1}{}{\Lightning & \href{http://#1}{#1}\smallskip\\ }
     \Letter      & \href{mailto:#4}{#4}\smallskip\\
     \Telefon     & {#3}
